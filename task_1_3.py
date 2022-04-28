@@ -27,8 +27,8 @@ def count_number_of_changes(seq: List[int]):
     )
 
 
-class TestFirstRepeatedNumber(unittest.TestCase):
-    def test_first_repeated_number_functional(self):
+class TestFindNumberOfChanges(unittest.TestCase):
+    def test_find_numner_of_changes(self):
         for seq, min_number in [
             # [0, (1), (0), 1, 0]
             ([0, 0, 1, 1, 0], 2),
